@@ -111,6 +111,7 @@ ul li a {
 ul li a:hover {
   border: 1.5px solid var(--text-color);
   background: var(--button-color-hover);
+  font-size: 17px;
 }
 .social-links {
   padding: 24px 0px;
@@ -129,6 +130,9 @@ ul li a:hover {
 }
 .social-links a:hover {
   background: var(--highlight-hover-color);
+}
+.social-links a:hover ion-icon {
+  color: var(--clr);
 }
 footer p {
   text-align: center;
